@@ -1,0 +1,63 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(backgroundimg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+section {
+  padding: 20px 450px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+section img {
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  border-radius: 20px;
+  margin: 1%;
+  cursor: pointer;
+}
+section img:hover {
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+  cursor: pointer;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.Avangers {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  grid-gap: 100px;
+  left: 400px;
+}
+.navbar p {
+  color: aliceblue;
+}
